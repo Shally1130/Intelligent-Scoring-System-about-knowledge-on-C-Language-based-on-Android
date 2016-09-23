@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:background="@drawable/e" >
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+      <TextView 
+    android:id="@+id/systemexercise_tv1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="一、选择"/>
+    <ListView
+        android:id="@+id/systemexercise_lv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+
+      <TextView 
+    android:id="@+id/systemexercise_tv2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="二、填空"/>
+      <ListView 
+        android:id="@+id/systemexercise_lv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></ListView>
+       <TextView 
+    android:id="@+id/systemexercise_tv3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="三、编程题"/>
+       <EditText
+        android:id="@+id/systemexercise_ed1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+       <Button
+           android:id="@+id/btcode"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="编译程序" />
+
+           <TextView 
+    android:id="@+id/systemexercise_tv4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+            <Button 
+        android:id="@+id/systemexercise_bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提交试卷"/>
+            
+
+</LinearLayout>
+</ScrollView>

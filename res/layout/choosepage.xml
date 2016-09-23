@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/c" >
+    <Button 
+        android:id="@+id/choosepage_bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="80dip"
+        android:layout_marginTop="80dip"
+        android:text="选择专项练习"
+        android:textSize="40px"/>
+    <Button 
+        android:id="@+id/choosepage_bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="80dip"
+        android:layout_marginTop="20dip"
+        android:text="填空专项练习"
+         android:textSize="40px"/>
+    <Button 
+        android:id="@+id/choosepage_bt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dip"
+        android:layout_marginTop="20dip"
+        android:text="编程专项练习"
+         android:textSize="40px"/>
+    <Button 
+        android:id="@+id/choosepage_bt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dip"
+        android:layout_marginTop="20dip"
+        android:text="系统考试"
+         android:textSize="40px"/>
+
+</LinearLayout>
